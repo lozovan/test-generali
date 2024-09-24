@@ -1,0 +1,92 @@
+.promo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-background);
+}
+
+.promo-text {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-text p {
+    color: var(--main-color_and_hover);
+    font-family: var(--main-font-family);
+    font-weight: var(--main-font-weight);
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.promo-form-container {
+    flex: 1;
+    background: url(../img/promo.svg);
+    background-size: inherit;
+    background-repeat: inherit;
+    background-position: 120% 50%;
+    background-color: #c22627;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 60px 80px 60px 0px;
+    clip-path: polygon(23% 0, 100% 0, 100% 100%, 0 160%);
+}
+
+.promo-form {
+    background-color: rgba(74, 74, 74, 0.82);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 355px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.promo-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.promo-form input[type="tel"], input[type="email"], input[type="text"] {
+    padding: 12px;
+    border: 1px solid #818181;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 17.5px;
+    width: 100%;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+.iti {
+    width: 100%; 
+}
+
+.iti input {
+    width: 100%; 
+    padding-left: 50px; 
+}
+
+.iti__flag-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.promo-form button {
+    padding: 10px;
+    background-color: var(--main-color_and_hover);
+    color: var(--main-background-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.promo-form button:hover {
+    background-color: #b71c1c;
+}
