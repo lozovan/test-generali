@@ -12,6 +12,7 @@
     --main-background-color: #ffffff;
     --main-text-color: #000000;
     --main-color_and_hover: #d81e05;
+    --main-color-text: #0e69af;
     /* --main-background-color: #1c1c1c;
     --main-background: #dfa542;
     --main-text-color: #ededed;
@@ -47,8 +48,11 @@ html {
 
 .container {
     margin: auto;
-    max-width: 1200px;
-    /* padding: 0 4.5rem; */
+    /* max-width: 1200px; */
+    padding: 0 4.5rem;
 }
 
+.devider{
+    border: 1px solid #ee1b25;
+}
 

@@ -1,8 +1,13 @@
 .promo-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: var(--main-background);
+}
+
+.promo-text, .promo-form-container {
+    flex: 1 1 100%; 
 }
 
 .promo-text {
@@ -26,7 +31,7 @@
     flex: 1;
     background: url(../img/promo.svg);
     background-size: inherit;
-    background-repeat: inherit;
+    background-repeat: no-repeat;
     background-position: 120% 50%;
     background-color: #c22627;
     display: flex;
@@ -90,3 +95,43 @@
 .promo-form button:hover {
     background-color: #b71c1c;
 }
+.lower-block {
+    display: flex;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+    gap: 40px;
+}
+.image-block {
+    flex: 1;
+    width: 485px;
+    height: 220px;
+    background-color: #e0e0e0; 
+    /* border-radius: 20px 20px 20px 20px; 
+    transform: skewX(-15deg);  */
+    clip-path: polygon( 4.405% 9.888%,4.405% 9.888%,4.556% 8.24%,4.814% 6.694%,5.17% 5.265%,5.615% 3.971%,6.14% 2.829%,6.735% 1.856%,7.392% 1.07%,8.102% 0.487%,8.855% 0.125%,9.642% 0%,94.657% 0%,94.657% 0%,95.679% 0.208%,96.628% 0.803%,97.487% 1.743%,98.241% 2.984%,98.876% 4.484%,99.375% 6.198%,99.725% 8.085%,99.909% 10.101%,99.912% 12.203%,99.72% 14.348%,89.082% 91.926%,89.082% 91.926%,88.844% 93.315%,88.528% 94.603%,88.142% 95.78%,87.691% 96.835%,87.183% 97.757%,86.624% 98.536%,86.022% 99.16%,85.382% 99.62%,84.712% 99.903%,84.018% 100%,5.305% 100%,5.305% 100%,4.381% 99.829%,3.511% 99.337%,2.71% 98.553%,1.989% 97.509%,1.362% 96.234%,0.84% 94.759%,0.437% 93.115%,0.166% 91.331%,0.039% 89.438%,0.068% 87.466%,4.405% 9.888% );
+  }
+  
+  .text-block {
+    flex: 1;
+  }
+  
+  .text-block h3 {
+    color: var(--main-color_and_hover);
+    font-family: var(--main-font-family); 
+    font-weight: var(--main-font-weight);
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+  
+  .text-block p {
+    color: var(--main-color-text);
+    font-family: var(--main-font-family);
+    font-weight: var(--main-font-weight);
+    font-size: 25px;
+    line-height: 31px;
+  }
