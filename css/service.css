@@ -1,30 +1,35 @@
-.service_title h2{
-  text-align: center;
-  font-family: var(--main-font-family);
-  font-weight: var(--main-font-weight);
-  color: var(--main-text-color);
-  opacity: 0.8;
-  font-size: 37px;
-  line-height: 54px;
-  margin: 90px 0px 50px 0px; 
+.service_title h2 {
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-weight: var(--main-font-weight);
+    color: var(--main-text-color);
+    opacity: 0.8;
+    font-size: 37px;
+    line-height: 54px;
+    margin: 90px 0px 50px 0px;
 }
-.service_main{
+
+.service_main {
     display: flex;
     flex-wrap: nowrap;
-    gap: 20px; 
+    gap: 20px;
+    margin: 0px 0px 77px 0px;
 
 }
-.service__block{
+
+.service__block {
     flex: 1 0 30%;
     align-self: flex-end;
     overflow: hidden;
     padding: 0px 0px 10px 0px;
 }
-.service__block img{
+
+.service__block img {
     width: 95px;
 
 }
-.service__block h4{
+
+.service__block h4 {
     text-align: start;
     font-family: var(--main-font-family);
     font-weight: var(--main-font-weight);
@@ -32,7 +37,8 @@
     font-size: 31px;
     line-height: 37px;
 }
-.service__block p{
+
+.service__block p {
     text-align: start;
     font-family: var(--main-font-family);
     font-weight: var(--main-font-weight);
@@ -40,17 +46,19 @@
     font-size: 15px;
     line-height: 23px;
 }
-.service__block a{
+
+.service__block a {
     background-color: var(--main-color_and_hover);
     color: var(--main-background-color);
     border-radius: 12px;
     font-size: 16px;
     line-height: 22px;
-    padding: 12px 180px;
+    padding: 12px 150px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
 }
-.service__block a:hover{
+
+.service__block a:hover {
     background-color: #b71c1c;
 }

@@ -1,29 +1,39 @@
-  .actioner_title h2{
-    text-align: center;
-    font-family: var(--main-font-family);
-    font-weight: var(--main-font-weight);
-    color: var(--main-text-color);
-    font-size: 30px;
-    line-height: 42px;
-    margin: 70px 0px 60px 0px; 
-  }
-  .actioner__main{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: stretch;
-    justify-content: center;
-  }
-  .actioner_company_section_one{
-    display: flex;
-    gap: 38px;
-  }
-  .actioner_company_section_two{
-    margin: 40px 0px 40px 0px;
-    display: flex;
-    gap: 38px;
-  }
-  .actioner_company img{
-    width: 200px;
-  }
+.actioner {
+  padding: 70px 0px 0px 0px;
+}
+
+.actioner_title h2 {
+  text-align: center;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-weight);
+  color: var(--main-text-color);
+  font-size: 30px;
+  line-height: 42px;
+  margin: 0px 0px 60px 0px;
+}
+
+.actioner__main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.actioner_company_section_one {
+  display: flex;
+  gap: 38px;
+}
+
+.actioner_company_section_two {
+  margin: 40px 0px 40px 0px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.actioner_company_section_one a:hover img,
+.actioner_company_section_two a:hover img {
+  cursor: pointer;
+}

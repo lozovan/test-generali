@@ -1,0 +1,155 @@
+.profit__main {
+    position: relative;
+}
+
+.profit__main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #c91c04, #4b0900);
+    z-index: -1;
+}
+
+.profit {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.profit-image {
+    flex: 1 0 45%;
+    padding: 72px 0px 0px 58px;
+}
+
+.profit-image img {
+    max-width: 460px;
+    position: relative;
+    z-index: 1;
+}
+
+.profit-info {
+    flex: 1 0 68%;
+    background: rgba(204, 66, 56, 0.77) url(../img/profit_bg.svg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    margin: 160px 0px 0px -90px;
+}
+
+.profit-info p {
+    padding: 120px 45px 65px 90px;
+    font-family: var(--main-font-family);
+    color: var(--main-background-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.profit_title h3 {
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    color: var(--main-background-color);
+    font-size: 38px;
+    line-height: 48px;
+    padding: 30px 0px 40px 0px;
+}
+
+.profit__calculation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 50px 0px;
+    flex-wrap: wrap;
+}
+
+.profit_calculate-block {
+    width: 60%;
+    background-color: var(--main-background-color);
+    padding: 30px;
+    border-radius: 20px;
+    color: var(--main-text-color);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.slider {
+    margin: 25px 0;
+}
+.irs--round .irs-from, .irs--round .irs-to, .irs--round .irs-single {
+    background-color: #db1e05!important;
+}
+.irs--round .irs-handle {
+    border: 4px solid #db1e05!important;
+}
+.irs--round .irs-from:before, .irs--round .irs-to:before, .irs--round .irs-single:before {
+    bottom: -8px !important;
+    left: 48% !important;
+    border: 4px solid #db1e05!important;
+    border-top-color: #db1e05!important;
+}
+.irs--round .irs-bar {
+    background-color: #db1e05!important;
+}
+.profit__total {
+    max-width: 80%;
+    background: linear-gradient(90deg, #C91C04 0%, #D81E05 33.33%, #4B0900 66.67%, #4B0900 100%);
+    color: var(--main-background-color);
+    border-radius: 38px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.profit__total p {
+    color: var(--main-background-color);
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
+    margin: 0;
+}
+
+.profit__total p span {
+    color: var(--main-background-color);
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 32px;
+}
+
+.profit__total p i {
+    color: var(--main-background-color);
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 32px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details p {
+    margin: 20px 0;
+    color: var(--main-background-color);
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.details p span {
+    color: var(--main-background-color);
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 56px;
+}

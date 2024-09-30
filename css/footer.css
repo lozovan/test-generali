@@ -1,9 +1,21 @@
+.devider-footer {
+    position: relative;
+}
+
+.devider-footer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #cc4238;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     background-color: var(--main-background);
-    border-top: 1px solid #cc4238;
 }
 
 .footer__logo-container {
@@ -31,12 +43,14 @@
     gap: 15px;
     justify-content: space-between;
 }
+
 .footer__menu_section_two {
     display: flex;
     list-style: none;
     gap: 15px;
     justify-content: end;
 }
+
 .footer__menu-link {
     font-family: var(--main-font-family);
     color: var(--main-text-color);
