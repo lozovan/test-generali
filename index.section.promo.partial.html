@@ -1,27 +1,26 @@
 <section class="container promo-section">
     <div class="promo-text">
-        <p>Investire 250 euro per raggiungere<br> 5000 euro in una settimana vi<br> sembra impossibile?<br>
-            Con il Gruppo Generali potete fare<br> ancora di più!</p>
+        <p>Investire 250 euro per raggiungere 5000 euro in una settimana vi sembra impossibile?<br>
+            Con il Gruppo Generali potete fare ancora di più!</p>
     </div>
     <div class="promo-form-container">
         <div class="promo-form">
-            <form action="#">
+            <form id="registrationForm" action="#">
                 <br>
-                <input type="text" placeholder="IL SUO NOME" required>
-                <input type="text" placeholder="IL SUO COG" required>
-                <input type="email" placeholder="E-MAIL" required>
-                <input type="tel" id="phone"  required>
+                <input type="text" id="name" placeholder="IL SUO NOME" required>
+                <input type="text" id="surname" placeholder="IL SUO COG" required>
+                <input type="email" id="email" placeholder="E-MAIL" required>
+                <input type="tel" id="phone" pattern="^(\+?\d{9,15})$" required>
                 <br>
                 <button type="submit">REGISTRATI</button>
                 <br>
             </form>
         </div>
     </div>
-    <div class="lower-block">
-        <div class="image-block"></div>
-        <div class="text-block">
-            <h3>IL NOSTRO SCOPO</h3>
-            <p>Siamo qui per promuovere lo sviluppo e la<br> circolazione delle persone, delle imprese e<br> del Paese.</p>
-        </div>
+    <div class="image-block"></div>
+    <div class="text-block">
+        <h3>IL NOSTRO SCOPO</h3>
+        <p>Siamo qui per promuovere lo sviluppo e la<br> circolazione delle persone, delle imprese e<br> del Paese.
+        </p>
     </div>
 </section>

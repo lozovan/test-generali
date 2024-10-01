@@ -1,5 +1,5 @@
 .actioner {
-  padding: 70px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
 }
 
 .actioner_title h2 {
@@ -7,9 +7,9 @@
   font-family: var(--main-font-family);
   font-weight: var(--main-font-weight);
   color: var(--main-text-color);
-  font-size: 30px;
-  line-height: 42px;
-  margin: 0px 0px 60px 0px;
+  font-size: 25px;
+  line-height: 28px;
+  margin: 0px 0px 20px 0px;
 }
 
 .actioner__main {
@@ -23,17 +23,39 @@
 
 .actioner_company_section_one {
   display: flex;
-  gap: 38px;
+  gap: 18px;
 }
 
 .actioner_company_section_two {
-  margin: 40px 0px 40px 0px;
+  margin: 20px 0px 20px 0px;
   display: flex;
   align-items: center;
-  gap: 38px;
+  gap: 18px;
 }
 
 .actioner_company_section_one a:hover img,
 .actioner_company_section_two a:hover img {
   cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .actioner {
+    margin: auto;
+    padding-top: 70px;
+  }
+
+  .actioner_title h2 {
+    font-size: 30px;
+    line-height: 42px;
+    margin: 0px 0px 60px 0px;
+  }
+
+  .actioner_company_section_one {
+    gap: 38px;
+  }
+
+  .actioner_company_section_two {
+    margin: 40px 0px 40px 0px;
+    gap: 38px;
+  }
 }
