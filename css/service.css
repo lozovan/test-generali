@@ -59,20 +59,12 @@
 }
 
 @media (min-width: 375px) {
-    .service__block {
-        text-align: center;
-    }
-
     .service__block a {
         padding: 15px 137px;
     }
 }
 
 @media (min-width: 425px) {
-    .service__block {
-        text-align: center;
-    }
-
     .service__block a {
         padding: 15px 162px;
     }
@@ -83,11 +75,6 @@
         font-size: 28px;
         line-height: 40px;
     }
-
-    .service__block {
-        text-align: center;
-    }
-
     .service__block {
         text-align: center;
     }
