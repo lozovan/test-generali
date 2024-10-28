@@ -33,7 +33,9 @@ html {
     max-width: 100%;
     padding: 1rem;
 }
-
+marquee{
+    color: #d81e05;
+}
 
 @media (min-width: 768px) {
     .container {
